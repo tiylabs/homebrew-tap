@@ -8,8 +8,8 @@
 # drifting in a repo nobody opens.
 
 cask "pane" do
-  version "0.1.1075"
-  sha256 "df80842badd05993c3e50c0126a216d940bbe068e8f731152d03042eed51db90"
+  version "0.2.1075"
+  sha256 "851c4fecfbee2c981dc44c058b1b5dd918ec9f9800c0b7d59c7b9670b753946f"
 
   url "https://github.com/tiylabs/pane/releases/download/v#{version}/Pane-#{version}.dmg"
   name "Pane"
