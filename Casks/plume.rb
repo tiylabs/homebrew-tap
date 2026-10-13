@@ -10,8 +10,8 @@
 cask "plume" do
   # Placeholders: the release workflow overwrites both values when it publishes to the tap, so they
   # are never the current release. Do not bump them by hand.
-  version "0.4.1075"
-  sha256 "fb73d516341093ad23dca121b7425ccb1a0565d6701158048694c6ed0df96dfe"
+  version "0.5.0"
+  sha256 "9c6031be78b2560fddbcd410a097f0fdad8a3be0e8d3c8a1b15dcb929821209f"
 
   url "https://github.com/tiylabs/plume/releases/download/v#{version}/Plume-#{version}.dmg"
   name "Plume"
