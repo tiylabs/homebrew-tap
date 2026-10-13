@@ -10,8 +10,8 @@
 cask "plume" do
   # Placeholders: the release workflow overwrites both values when it publishes to the tap, so they
   # are never the current release. Do not bump them by hand.
-  version "0.5.0"
-  sha256 "9c6031be78b2560fddbcd410a097f0fdad8a3be0e8d3c8a1b15dcb929821209f"
+  version "0.6.0"
+  sha256 "4237319deb432c5bdd8fc445de4e90e0d6f7bef290f9c27f5840c2e5c090a851"
 
   url "https://github.com/tiylabs/plume/releases/download/v#{version}/Plume-#{version}.dmg"
   name "Plume"
@@ -23,7 +23,7 @@ cask "plume" do
   app "Plume.app"
 
   # Enumerated rather than trashing the whole support directory, because it is no longer only the
-  # app's own leavings. Decision 35 put "Recently Deleted" in there — up to 30 days of notes the user
+  # app's own leavings. "Recently Deleted" lives in there — up to 30 days of notes the user
   # deleted and can still get back — so `--zap` would have swept away recoverable documents as a side
   # effect of uninstalling. Anything added here later has to answer the same question: is it Plume's,
   # or is it the user's?
